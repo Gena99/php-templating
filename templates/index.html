@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<title>Php Templating</title>
+</head>
+<body>
+	<h1>Php Templating</h1>
+	<div class="container">
+		<section>
+			<h2>{{ companyName }}</h2>
+			<h3>{{ catchPhrase }}</h3>
+			<p>At {{ companyName }}, we create {{ productAdjective }} {{ productName }} made of {{ productMaterial }}</p>
+			Find out more on <a href="{{ url }}">{{ url }}</a>
+			<article>
+				<img src="{{ image }}">
+				<h4>{{ productName }}</h4>
+				<div>Material : {{ productMaterial }}</div>
+				<div>Color : {{ color }}</div>
+				<div>{{ price }} $ only!</div>
+				<button>Take my money ;)</button>
+			</article>
+		</section>
+		<aside>
+			<img src="{{ imagePerson }}"/>
+			<h3>{{ name }}</h3>
+			<div>{{ job }}</div>
+			<h4>Contact Infos</h4>
+			<div><a href="mailto:{{ email }}">{{ email }}</a></div>
+			<div>{{ phoneNumber }}</div>
+			<div>{{ address }}</div>
+
+		</aside>
+	</div>
+</body>
+</html>

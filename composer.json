@@ -1,0 +1,14 @@
+{
+    "name": "gena/php-templating",
+    "type": "project",
+    "require": {
+        "twig/twig": "^2.3",
+        "fzaninotto/faker": "^1.6"
+    },
+    "authors": [
+        {
+            "name": "Gena",
+            "email": "gena@e64.net"
+        }
+    ]
+}

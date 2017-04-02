@@ -1,0 +1,22 @@
+.container{
+	display: flex;
+	width: 80%;
+	margin: auto;
+}
+
+article{
+	margin-top: 20px;
+	padding: 5px;
+	width: 240px;
+	border: 1px solid black;
+	text-align: center;
+}
+section{
+	width: 80%;
+}
+aside {
+	width: 20%;
+}
+aside>img{
+	border-radius: 60px;
+}
