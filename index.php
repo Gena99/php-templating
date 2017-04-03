@@ -6,6 +6,13 @@
  	désactiver le cache de Twig
 	Remplacer la methode faker->image par faker-imageUrl qui renvoie une url vers l'image plutôt qu'un fichier. 
 */
+/*
+Documentation :
+	Twig : http://twig.sensiolabs.org/doc/2.x/intro.html
+	faker : https://packagist.org/packages/fzaninotto/faker
+Packagist :
+	https://packagist.org/
+*/
 	require_once 'vendor/autoload.php';
 // require the Faker autoloader
 	require_once 'vendor/fzaninotto/faker/src/autoload.php';
