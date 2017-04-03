@@ -20,8 +20,8 @@ $variableTemplate = array(
 	"email" => $faker->email,
 	"phoneNumber" => $faker->phoneNumber,
 	"address" => $faker->address,
-	"image" => $faker->image($dir = './tmp', $width = 240, $height = 120),
-	"imagePerson" => $faker->image($dir = './tmp', $width = 120, $height = 120)
+	"image" => $faker->imageUrl($width = 240, $height = 120),
+	"imagePerson" => $faker->imageUrl($width = 120, $height = 120)
 	);
 
 
